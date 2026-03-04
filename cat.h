@@ -1,6 +1,6 @@
 #pragma once
 #include "animal.h"
- 
+ //comment 
 class Cat : public Animal {
 public:
     Cat(std::string name, int age, bool isIndoor);
