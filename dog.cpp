@@ -1,17 +1,17 @@
 #include "dog.h"
 #include <iostream>
- 
+ //lalala
 Dog::Dog(std::string name, int age, std::string breed)
-    : Animal(name, age),   // вызов конструктора родителя
+    : Animal(name, age),   // ГўГ»Г§Г®Гў ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  Г°Г®Г¤ГЁГІГҐГ«Гї
       breed(breed)
 {}
  
 void Dog::speak() const {
-    std::cout << name << " (" << breed << "): Гав!\n";
+    std::cout << name << " (" << breed << "): ГѓГ Гў!\n";
 }
  
 void Dog::fetch() const {
-    std::cout << name << " принёс мяч!\n";
+    std::cout << name << " ГЇГ°ГЁГ­ВёГ± Г¬ГїГ·!\n";
 }
  
 std::string Dog::getBreed() const { return breed; }
